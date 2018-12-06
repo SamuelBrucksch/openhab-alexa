@@ -19,6 +19,10 @@
   "scripts": {
     "setup": "node-lambda setup",
     "run": "node-lambda run",
-    "deploy": "node-lambda deploy"
+    "deploy": "node-lambda deploy",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
